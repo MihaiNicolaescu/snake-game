@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Logic Part">
+      <UniqueIdentifier>{809db750-fb3b-4e7a-9f21-599ec911576b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\div">
+      <UniqueIdentifier>{89830ee1-a5df-40c9-b162-0e57b8cd7a5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Logic Part">
+      <UniqueIdentifier>{6da59656-dd3a-42e8-93bf-b813e28942c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\div">
+      <UniqueIdentifier>{9edec972-fcb1-42d6-8b55-85a7b46fb173}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Levele">
+      <UniqueIdentifier>{f4a07b57-6c1e-4a86-abfa-4fd5b65d77f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Levele">
+      <UniqueIdentifier>{b6c0a9e2-8c6d-4cb5-955e-0667eb94f832}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="logic_desen_sarpe.cpp">
+      <Filter>Source Files\Logic Part</Filter>
+    </ClCompile>
+    <ClCompile Include="logic_dir_sarpe.cpp">
+      <Filter>Source Files\Logic Part</Filter>
+    </ClCompile>
+    <ClCompile Include="logic_fruct_normal.cpp">
+      <Filter>Source Files\Logic Part</Filter>
+    </ClCompile>
+    <ClCompile Include="logic_verificare.cpp">
+      <Filter>Source Files\Logic Part</Filter>
+    </ClCompile>
+    <ClCompile Include="gotoXY.cpp">
+      <Filter>Source Files\div</Filter>
+    </ClCompile>
+    <ClCompile Include="start.cpp">
+      <Filter>Source Files\div</Filter>
+    </ClCompile>
+    <ClCompile Include="sterge.cpp">
+      <Filter>Source Files\div</Filter>
+    </ClCompile>
+    <ClCompile Include="teren.cpp">
+      <Filter>Source Files\div</Filter>
+    </ClCompile>
+    <ClCompile Include="logic_coada.cpp">
+      <Filter>Source Files\Logic Part</Filter>
+    </ClCompile>
+    <ClCompile Include="scor.cpp">
+      <Filter>Source Files\div</Filter>
+    </ClCompile>
+    <ClCompile Include="logic_gameover.cpp">
+      <Filter>Source Files\Logic Part</Filter>
+    </ClCompile>
+    <ClCompile Include="snake.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="snake_level1.cpp">
+      <Filter>Source Files\Levele</Filter>
+    </ClCompile>
+    <ClCompile Include="teren_level1.cpp">
+      <Filter>Source Files\Levele</Filter>
+    </ClCompile>
+    <ClCompile Include="gameover_levele.cpp">
+      <Filter>Source Files\Levele</Filter>
+    </ClCompile>
+    <ClCompile Include="snake_level.cpp">
+      <Filter>Source Files\Levele</Filter>
+    </ClCompile>
+    <ClCompile Include="check_fructe.cpp">
+      <Filter>Source Files\Levele</Filter>
+    </ClCompile>
+    <ClCompile Include="meniu.cpp">
+      <Filter>Source Files\div</Filter>
+    </ClCompile>
+    <ClCompile Include="record.cpp">
+      <Filter>Source Files\div</Filter>
+    </ClCompile>
+    <ClCompile Include="ajutor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="logic_desen_sarpe.h">
+      <Filter>Header Files\Logic Part</Filter>
+    </ClInclude>
+    <ClInclude Include="logic_dir_sarpe.h">
+      <Filter>Header Files\Logic Part</Filter>
+    </ClInclude>
+    <ClInclude Include="logic_fruct_normal.h">
+      <Filter>Header Files\Logic Part</Filter>
+    </ClInclude>
+    <ClInclude Include="logic_verificare.h">
+      <Filter>Header Files\Logic Part</Filter>
+    </ClInclude>
+    <ClInclude Include="teren.h">
+      <Filter>Header Files\div</Filter>
+    </ClInclude>
+    <ClInclude Include="sterge.h">
+      <Filter>Header Files\div</Filter>
+    </ClInclude>
+    <ClInclude Include="start.h">
+      <Filter>Header Files\div</Filter>
+    </ClInclude>
+    <ClInclude Include="snake.h">
+      <Filter>Header Files\div</Filter>
+    </ClInclude>
+    <ClInclude Include="gotoXY.h">
+      <Filter>Header Files\div</Filter>
+    </ClInclude>
+    <ClInclude Include="logic_coada.h">
+      <Filter>Header Files\Logic Part</Filter>
+    </ClInclude>
+    <ClInclude Include="scor.h">
+      <Filter>Header Files\div</Filter>
+    </ClInclude>
+    <ClInclude Include="logic_gameover.h">
+      <Filter>Header Files\Logic Part</Filter>
+    </ClInclude>
+    <ClInclude Include="check_fructe.h">
+      <Filter>Header Files\Levele</Filter>
+    </ClInclude>
+    <ClInclude Include="gameover_levele.h">
+      <Filter>Header Files\Levele</Filter>
+    </ClInclude>
+    <ClInclude Include="snake_level.h">
+      <Filter>Header Files\Levele</Filter>
+    </ClInclude>
+    <ClInclude Include="snake_level1.h">
+      <Filter>Header Files\Levele</Filter>
+    </ClInclude>
+    <ClInclude Include="teren_level1.h">
+      <Filter>Header Files\Levele</Filter>
+    </ClInclude>
+    <ClInclude Include="record.h">
+      <Filter>Header Files\div</Filter>
+    </ClInclude>
+    <ClInclude Include="librari.h">
+      <Filter>Header Files\div</Filter>
+    </ClInclude>
+    <ClInclude Include="structuri.h">
+      <Filter>Header Files\div</Filter>
+    </ClInclude>
+    <ClInclude Include="meniu.h">
+      <Filter>Header Files\div</Filter>
+    </ClInclude>
+    <ClInclude Include="ajutor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
